@@ -1,39 +1,194 @@
-* {
+*, html {
   margin: 0%;
   padding: 0%;
+ 
   
 }
 
 body {
-  background-color: #eee;
+  background-color: #111;
+  overflow-x: hidden;
+  
 }
 
- nav {
-  padding: 1rem;
-  background-color: black;
-  color: white;
- }
+nav {
+  width: 100%;
+  background-color: white;
+}
 
- ul {
-  list-style-type: none;
+.row svg {
+  width: 40rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.kalimat {
+  position: relative;
+  top: 25%;
+  padding-left: 5rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.kalimat h1 {
+  font-size: 4.5rem;
+}
+
+.kalimat span, h6 {
+  color: #8cb0ff;
+}
+
+.kalimat a {
+  border-radius: 5rem;
+}
+
+
+@media screen and (min-width : 0px) {
+  .kalimat {
+    padding: 0px 30px;
+    top: 10%;
+    
+  }
+
+  .kalimat h1 {
+      font-size: 4rem;
+  }
+
+  .row svg {
+    width: 20rem;
+    margin: 5rem 2rem;
+  }
+
+}
+
+
+
+.ourmember {
   display: flex;
-  gap: 1rem;
- }
-
- li {
-  padding: 2px;
- }
-
- li:hover {
-  background-color: blue;
-  padding: 2px;
-  transition: ease-in-out .5s;
- }
-
- a {
-  text-decoration: none;
- }
-
-.main h1 {
-  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
+
+img {
+  margin-left: 6rem;
+  margin-top: -5rem;
+}
+
+
+
+.card h1 {
+   color: #8cb0ff;
+}
+
+.card img  {
+  margin: 2rem 1rem;
+}
+
+.medsos a {
+  text-decoration: none;
+   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: .2rem solid #8cb0ff;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #8cb0ff;
+  transition: .5s ease;
+   margin: 1rem 1.5rem 3rem 0;
+}
+
+.medsos a:hover {
+   background: #8cb0ff;
+  color: white;
+  box-shadow: 0 0 1rem #8cb0ff;
+}
+
+
+.medsos {
+  position: relative;
+  left: 0.5rem;
+}
+
+.navbar-nav a:hover {
+  font-weight: bold;
+}
+
+@media  screen and (min-width: 0px) {
+  
+}
+
+@media screen and (min-width : 480px) {
+  .kalimat {
+      padding: 0px 30px;
+      top: 10%;
+    }
+  
+    .kalimat h1 {
+      font-size: 4rem;
+    }
+  
+    .row svg {
+      width: 20rem;
+      margin-top: 5rem;
+      margin-left: 6rem;
+    }
+
+   
+}
+
+@media screen and (min-width : 768px) {
+  .kalimat {
+      margin-left: 3rem ;
+    }
+
+        .row svg {
+          width: 25rem;
+          margin-top: 5rem;
+          margin-left: 11rem;
+        }
+
+       .halo {
+        left: 3rem;
+       }
+}
+
+
+ @media screen and (min-width : 1200px) {
+   .kalimat {
+    padding: 0rem 4rem;
+    top: 25%;
+   }
+
+     .kalimat h1 {
+       font-size: 4.5rem;
+     }
+
+         .row svg {
+           width: 35rem;
+           margin-left: 0.6rem;
+           margin-top: 2rem;
+         }
+
+                 .card {
+                   width: 100%;
+                 }
+ }
+
+ @media screen and (min-width : 1924px) {
+  .kalimat {
+      padding: 0rem 4rem;
+      top: 25%;
+    }
+  
+    .kalimat h1 {
+      font-size: 4.5rem;
+    }
+
+        .card {
+          width: 100%;
+        }
+ }
