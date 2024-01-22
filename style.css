@@ -1,6 +1,7 @@
 *, html {
   margin: 0%;
   padding: 0%;
+ scroll-behavior: smooth;
  
   
 }
@@ -12,8 +13,10 @@ body {
 }
 
 nav {
+  position: fixed;
   width: 100%;
   background-color: white;
+  z-index: 999999999;
 }
 
 .row svg {
