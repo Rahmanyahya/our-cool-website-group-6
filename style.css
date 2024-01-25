@@ -19,22 +19,22 @@ nav {
   z-index: 999999999;
 }
 
-.row svg {
-  width: 40rem;
-  margin-left: 5rem;
-  margin-top: 1rem;
+svg {
+  position: relative;
+  top: 5rem;
 }
 
+.home {
+  height: 100vh;
+}
+
+
 .kalimat {
-  position: relative;
-  top: 25%;
-  padding-left: 5rem;
-   justify-content: center;
-   align-items: center;
+  margin-top: 13rem;
 }
 
 .kalimat h1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .kalimat span, h6 {
@@ -49,8 +49,7 @@ nav {
 @media screen and (min-width : 0px) {
   .kalimat {
     padding: 0px 30px;
-    top: 10%;
-    
+    margin-top: 2rem;
   }
 
   .kalimat h1 {
@@ -121,7 +120,13 @@ img {
 }
 
 @media  screen and (min-width: 0px) {
-  
+  .row svg {
+      position: relative;
+      top: -2rem;
+      width: 20rem;
+      
+     
+    }
 }
 
 @media screen and (min-width : 480px) {
@@ -136,7 +141,7 @@ img {
   
     .row svg {
       width: 20rem;
-      margin-top: 5rem;
+      margin-top: 1rem;
       margin-left: 6rem;
     }
 
@@ -162,9 +167,14 @@ img {
 
  @media screen and (min-width : 1200px) {
    .kalimat {
-    padding: 0rem 4rem;
-    top: 25%;
+    position: relative;
+      top: 15rem;
    }
+
+  svg {
+    position: relative;
+    right: -5rem;
+  }
 
      .kalimat h1 {
        font-size: 4.5rem;
@@ -173,7 +183,7 @@ img {
          .row svg {
            width: 35rem;
            margin-left: 0.6rem;
-           margin-top: 2rem;
+           margin-top: 7rem;
          }
 
                  .card {

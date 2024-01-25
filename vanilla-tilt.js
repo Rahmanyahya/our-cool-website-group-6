@@ -233,7 +233,7 @@ class VanillaTilt {
         clientX: this.left + ((this.settings.startX + this.settings.max) / (2 * this.settings.max) * this.width),
         clientY: this.top + ((this.settings.startY + this.settings.max) / (2 * this.settings.max) * this.height)
       };
-    }
+    } 
 
     let backupScale = this.settings.scale;
     this.settings.scale = 1;
